@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: arial;
+  font-size: medium;
+  color: #aca2c1;
+  background-color: #0f111a;
+}
+.main {
+  width: 280px;
+  height: 380px;
+  border-radius: 15px;
+  background-color: #0f111a;
+  border-radius: 12px;
+  margin: auto;
+  margin-top: 5%;
+  position: relative;
+  box-shadow: 5px 5px 7px #08090d, -5px -5px 7px #171a27;
+}
+.input {
+  width: 165px;
+  height: 25px;
+  outline: none;
+  position: absolute;
+  background-color: #0f111a;
+  outline: none;
+  border: none;
+  box-shadow: inset 5px 5px 7px #08090d, inset -5px -5px 7px #171a27;
+  color: #aca2c1;
+  padding-left: 5px;
+}
+.input::placeholder {
+  color: #aca2c1;
+}
+.input-one {
+  top: 155px;
+  left: 55px;
+}
+.input-two {
+  top: 190px;
+  left: 55px;
+}
+.btn {
+  width: 168px;
+  height: 40px;
+  position: absolute;
+  top: 240px;
+  left: 57px;
+  color: #aca2c1;
+  background-color: #0f111a;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 900;
+  box-shadow: 5px 5px 7px #08090d, -5px -5px 7px #171a27;
+}
+.btn:active {
+  box-shadow: inset 5px 5px 7px #08090d, inset -5px -5px 7px #171a27;
+}
+h1 {
+  font-size: 25px;
+  position: absolute;
+  top: 80px;
+  left: 85px;
+}
+p {
+  font-size: 11px;
+  position: absolute;
+  top: 315px;
+  left: 56px;
+}
+a {
+  font-size: 11px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #aca2c1;
+  position: absolute;
+  top: 315px;
+  left: 178px;
+}
